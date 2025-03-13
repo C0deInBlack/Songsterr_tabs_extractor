@@ -4,6 +4,8 @@
 
 ## Installation
 
+Python virtual environment is recommended
+
 ```bash
 git clone https://github.com/C0deInBlack/Songsterr_tabs_extractor.git
 pip install -r requirements.txt
@@ -23,3 +25,8 @@ As Songsterr requires a registered account for download tabs, you can use any te
 For export your JSON file, go to your Songsterr [account](https://www.songsterr.com/a/wa/account) and click in 'Download my data'.
 
 If the script fail, you will need to retry it with a new temporary email, [1secmail](https://www.1secmail.cc/) makes easy regenerate emails.
+
+## Note
+
+Download speed and functionality in general, depends of network speed. \
+If it fails reading the JSON file, probably because Songsterr has updated the Key names, and is needed also to update the Key names in the code (just a simple string)
